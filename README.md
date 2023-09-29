@@ -36,7 +36,7 @@ This project's main purpose is to provide a visual representation of audio data,
 
 - openFrameworks: [https://openframeworks.cc/](https://openframeworks.cc/)
 
-##Contributors
+## Contributors
 
 - [Sofia M. Barrera Vega](https://github.com/smbv)
 - [Nestor S. Frontera Rocher](https://github.com/nsfrontera)

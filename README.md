@@ -1,28 +1,44 @@
-# PA1: Openframeworks Audiovisualizer
-The objective for this first project is to complete this audiovisualizer with the help of OpenFrameworks!
+# Audio Visualizer
 
-# What it can do out of the box
-After compiling and running the project for the first time, you should be able to do a couple of things:
+The **Audio Visualizer** is a C++ project designed to process and visualize sound data in real-time. It utilizes the openFrameworks framework for graphics and audio handling.
 
-- Using the "P" key, you should be able to play music from "beat.wav" 
-- Using different number keys, you can visualize the music in different ways:
-    - 1: Rectangle Height Visualizer
-    - 2: Circle Radius Visualizer
-    - 3: Rectangle Width Visualizer (to be implemented)
-    - 4: Custom Visualizer (to be implemented)
+## Overview
 
-# Classes
-This project contains two classes that should be of your concern: ofApp and AudioVisualizer.
+This project's main purpose is to provide a visual representation of audio data, allowing users to see the sound's amplitude in various ways. The project includes three visualization modes:
 
-## ofApp
-This is the class that brings most things together. Here, you will find the code that causes the audio to play and pause. It is also to where the visualization happens. Here, you can observe how the code to change between modes works, and how the song is actually played. 
+1. **Rectangle Height Visualizer:** Displays amplitudes as the heights of colored rectangles.
+2. **Circle Radius Visualizer:** Visualizes amplitudes by varying the radii of circles in the center of the screen.
+3. **Rectangle Width Visualizer:** Represents amplitudes by altering the widths of colored rectangles.
 
-## AudioVisualizer
-The AudioVisualizer class provides us with the data needed to do the visualization. Using some of the tools OpenFrameworks provides us and math, we can obtain information such as the amplitude of the sound. 
+## Features
 
-## Team
-The team consist of 
-Nestor S Frontera Rocher
-Nestor.Frontera@upr.edu
-Sofia M. Barrera Vega
-Sofia.Barrera@upr.edu
+- Real-time audio visualization.
+- Interactive controls for playing and pausing audio.
+- Different visualization modes to explore.
+- Recording and replaying user-inputted keys for interactive playback.
+
+## Usage
+
+1. **Compilation**: This project utilizes the openFrameworks framework. Make sure you have openFrameworks properly set up before compiling the project.
+
+2. **Main Configuration**:
+   - Modify the `main.cpp` file to set up the initial configuration, such as window size.
+   - Include your sound files (e.g., "beat.wav," "geesebeat.wav") in the project's `bin/data/` directory.
+
+3. **Controls**:
+   - Press 'p' to play/pause the audio.
+   - Press 'r' to start/stop recording keys for replay.
+   - Press 't' to start/stop replaying recorded keys.
+   - Press '1', '2', or '3' to switch between visualization modes.
+   - Adjust the volume using '-' and '=' keys.
+
+## Dependencies
+
+- openFrameworks: [https://openframeworks.cc/](https://openframeworks.cc/)
+
+##Contributors
+
+- [Sofia M. Barrera Vega](https://github.com/smbv)
+- [Nestor S. Frontera Rocher](https://github.com/nsfrontera)
+
+---
